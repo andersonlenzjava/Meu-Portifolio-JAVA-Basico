@@ -22,7 +22,7 @@ public class VerificaValidade {
 		} else if (diferencaEmDias >= 4) {
 			System.out.println("O produto " + nome + " está vencido a " + diferencaEmDias + " dias.");
 			// produto vencido
-			throw new AlgumItemEstaVencidoException("O item " + nome + " está vencido! A " + diferencaEmDias + " dias!");
+			throw new AlgumItemEstaVencidoException("O item " + nome + " está vencido, A " + diferencaEmDias + " dias!");
 		}
 	}
 }

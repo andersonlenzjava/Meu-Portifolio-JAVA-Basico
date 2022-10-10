@@ -1,0 +1,12 @@
+1 - Considerando a estrutura de dados País, Unidade Federativa e Cidade
+a ) Construir um modelo de dados para essas 3 entidades. 
+    * Um país deverá ter nome, sigla (3 digítos, Ex BRA, EUA, ARG, URU) e Continente 
+    * Uma Unidade Federativa deverá ter Nome, código (PR, SP, SC, etc), País e Região (Sul, Sudeste, etc)
+    * Uma Cidade deverá ter nome, Estado 
+b) Construir um modelo de repositório (em memória mesmo) para armazenar cada uma dessas entidades (País, Unidade Federativa e Cidade) 
+
+c) Fazer um serviço que retorne um País pela sua Sigla 
+d) Fazer um serviço que retorne as Unidades Federativas de um País 
+e) Fazer um serviço que retorne as Cidades de um Estado 
+f) Fazer um serviço que retorne os Países de um Continente 
+g) Fazer um serviço que retorne os Estados de um País e uma região.

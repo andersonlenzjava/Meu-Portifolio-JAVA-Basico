@@ -21,16 +21,19 @@ public class Lanche implements CalculosPrato {
 		try {
 			VerificaValidade.verificaValidade(tipoPao, tipoPao.getTipoPao());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + tipoPao + " está vencido!");
 			e.printStackTrace();
 		}
 		try {
 			VerificaValidade.verificaValidade(recheioLanche, recheioLanche.getTipoRecheio());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + recheioLanche + " está vencido!");
 			e.printStackTrace();
 		}
 		try {
 			VerificaValidade.verificaValidade(molho, molho.getTipoMolho());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + molho + " está vencido!");
 			e.printStackTrace();
 		}
 		this.tipoPao = tipoPao;

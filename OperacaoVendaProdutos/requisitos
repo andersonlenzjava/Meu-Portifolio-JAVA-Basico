@@ -1,0 +1,10 @@
+Comissão de Vendas 
+
+
+- Desenvolva uma logica que calcule a comissão de venda de acordo trabalhista de cada vendedor. 
+
+* O sistema deverá ter uma lista de vendedores, e cada vendedor pode ter um % que ele ganhe em cima das suas vendas 
+
+* Cada venda poderá ter um unico vendedor, devera ter uma lista de produtos, e um valor total 
+
+* O sistema deverá apresentar no console quanto é o valor de commissão de cada venda de acordo com a comissão de seu vendedor

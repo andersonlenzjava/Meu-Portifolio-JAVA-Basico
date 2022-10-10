@@ -1,0 +1,16 @@
+Sistema de Tarefas 
+
+- Faça um sistema que gerencie tarefas/atividades. 
+
+Exemplo de uma tarefa: 
+    * Fazer café da manhã (String)
+    * usuário: João (String)
+    * Data/Horário: 2022-07-30 07:00 (LocalDateTime)
+    * Status: Backlog (usar enum aqui: Pendente, Fazendo, Feito)
+
+* Criar um repositorio para tarefas 
+- Fazer uma consulta que traga todas as tarefas de um status 
+- Fazer uma consulta que traga todas as tarefas de um usuário
+- Fazer uma consulta que retorna todas as tarefas do período da tarde de um determado dia 
+
+- Fazer uma consulta que retorna quantas atividades por cada tipo de status tem na lista

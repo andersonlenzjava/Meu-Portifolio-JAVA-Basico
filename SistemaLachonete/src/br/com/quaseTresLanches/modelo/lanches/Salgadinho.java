@@ -21,16 +21,19 @@ public class Salgadinho implements CalculosPrato {
 		try {
 			VerificaValidade.verificaValidade(tipoPreparo, tipoPreparo.getTipoPreparo());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + tipoPreparo + " está vencido!");
 			e.printStackTrace();
 		}
 		try {
 			VerificaValidade.verificaValidade(massa, massa.getTipoMassa());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + massa + " está vencido!");
 			e.printStackTrace();
 		}
 		try {
 			VerificaValidade.verificaValidade(recheio, recheio.getTipoRecheio());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + recheio + " está vencido!");
 			e.printStackTrace();
 		}
 		this.tipoPreparo = tipoPreparo;

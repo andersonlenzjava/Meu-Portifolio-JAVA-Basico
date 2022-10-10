@@ -28,7 +28,6 @@ public class Pedido {
 	}
 
 	public void adicionaSalgadinho(Salgadinho salgadinho) {
-		
 		this.listaSalgadinho.add(salgadinho);
 	}
 

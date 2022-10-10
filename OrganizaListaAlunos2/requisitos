@@ -1,0 +1,14 @@
+
+1 - Dado uma lista de alunos, considerar informações de nome, data de nascimento, bairro onde mora, sexo (masculino e feminino) 
+
+
+Fazer um metodo/classe que recebe uma lista de alunos e separa em duas listas distintas por SEXO,
+ e ao final mostrar no console as duas listas em ordem alfabética por nome.
+ 
+ 
+ 2 - Agrupe os alunos por bairro, deverá ser mapa dinâmico, nao pode criar variável de bairro, 
+ dica Mapa<String, List<Aluno>>, no final imprimir os alunos de cada bairro
+ 
+ Cria uma classe ClassificaAlunoBairro para fazer essa lógica
+ 
+  1 - Assim como você agrupou por Bairro agora quero que voce agrupe todos os alunos que nasceram no mesmo mês, usar LocalDate para campo data.

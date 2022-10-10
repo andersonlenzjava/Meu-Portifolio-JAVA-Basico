@@ -1,0 +1,34 @@
+https://www.computersciencemaster.com.br/exercicio-sistema-de-lanchonete/
+
+Este sistema organiza os pedidos de uma lanchonete que possui três tipos de pratos:
+
+Pizza
+
+Lanche 
+
+Salgadinho
+
+cada um dos pratos é composto por três diferentes ingredientes:
+
+Pizza
+	- Borda
+	- Recheio
+	- Molho
+Lanche 
+	- Molho
+	- Recheio
+	- TipoPao
+Salgadinho
+	- Massa
+	- Recheio
+	- TipoPreparo
+	
+O sistema permite cadastrar diferentes tipos de ingredientes, que serão utilizados para montar os pratos.
+
+Os pratos são agrupados em pedidos, onde cada pedido tem uma lista de cada um deles.
+
+O sistema acusa se tiver algum item vencido, lançando uma exception.
+
+O sistema calcula o peso de cada prato, e o seu valor conforme os seus ingredientes, e o total do pedido. 
+
+O sistema gera uma nota fiscal simbolica com os itens do pedido. 

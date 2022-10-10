@@ -21,16 +21,19 @@ public class Pizza implements CalculosPrato {
 		try {
 			VerificaValidade.verificaValidade(recheio, recheio.getTipoRecheio());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + recheio + " está vencido!");
 			e.printStackTrace();
 		}
 		try {
 			VerificaValidade.verificaValidade(molho, molho.getTipoMolho());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + molho + " está vencido!");
 			e.printStackTrace();
 		}
 		try {
 			VerificaValidade.verificaValidade(bordaRecheada, bordaRecheada.getNome());
 		} catch (AlgumItemEstaVencidoException e) {
+			System.out.println("o item " + bordaRecheada + " está vencido!");
 			e.printStackTrace();
 		}
 		this.recheio = recheio;

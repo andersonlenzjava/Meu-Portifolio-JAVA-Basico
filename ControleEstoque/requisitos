@@ -1,0 +1,9 @@
+  - Controle de estoque 
+
+1 - Crie uma lista de produtos em memória. A lista deverá estar organizada em lista e em um Mapa com o código de barras do produto para fácil acesso, contendo os mesmos objetos. Os dados de produto deverão ser, codigo de barras, nome produto, quantidade estoque. 
+
+2 - Crie uma operação de compra de um produto para uma quantidade X. 
+A operação de compra deverá validar se existe estoque disponivel de acordo com a quantidade solicitada. 
+a) Caso não tenha estoque, disparar uma exception dizendo que não tem estoque (Tratar a exception na chamada para não matar o sistema)
+b) Caso haja estoque, reduzir o estoque do produto. 
+c) Simular todos os cenário
